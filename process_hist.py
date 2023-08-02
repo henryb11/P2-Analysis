@@ -44,7 +44,8 @@ MONTHS_SHORT = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', '
 TAG_FIELDS = ['channel_id', 'channel_title', 'video_id', 'video_title', 'watched']
 TIMEZONES = {
     'EDT': 'US/Eastern',
-    'EST': 'US/Eastern'
+    'EST': 'US/Eastern',
+    'GMT-4:00': 'US/Eastern'
     }
 
 class DeletedVideoError(Exception):
